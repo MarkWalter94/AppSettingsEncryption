@@ -1,11 +1,11 @@
-`AppSettingsProtector` is a simple yet powerful library that protects the data inside your settings using the `Data Protection API` provided by .NET Core.
+`AppSettings.Encryption` is a simple yet powerful library that protects the data inside your settings using the `Data Protection API` provided by .NET Core.
 The library uses DPAPI, that ensures that the data is decryptable only on the machine that encrypted it.
 
 # Usage
 
 1. Install the package via NuGet:
 ```bash
-dotnet add package AppSettingsProtector
+dotnet add package AppSettings.Encryption
 ```
 
 2. Add the following code to your `Program.cs` file:
@@ -42,7 +42,7 @@ var settingValue = _configuration.GetValue<string>("SettingToEncrypt");
 ```
 
 # Examples
-You can find a simple example opening the `AppSettingsProtector.AspNetCoreExample` project.
+You can find a simple example opening the `AppSettingsEncryption.AspNetCoreExample` project.
 More examples will be added in the future.
 
 # Other configurations
