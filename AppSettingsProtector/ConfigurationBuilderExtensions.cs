@@ -46,6 +46,33 @@ public static class ConfigurationBuilderExtensions
         var source = new AppSettingsProtectorSource(null, fileName, false);
         return configurationBuilder.Add(source);
     }
+
+    /// <summary>
+    /// Add the protection layer to the configuration file using the default prefixes.
+    /// </summary>
+    /// <param name="configurationBuilder"></param>
+    /// <param name="fileName"></param>
+    /// <param name="protectionPrefix"></param>
+    /// <param name="protectedPrefix"></param>
+    /// <returns></returns>
+    public static IConfigurationBuilder AddProtectedJsonFile(this IConfigurationBuilder configurationBuilder, string fileName, string protectionPrefix, string protectedPrefix)
+    {
+        var source = new AppSettingsProtectorSource(null, fileName, false, protectionPrefix, protectedPrefix);
+        return configurationBuilder.Add(source);
+    }
+
+    /// <summary>
+    /// Add the protection layer to the configuration file using the default prefixes.
+    /// </summary>
+    /// <param name="configurationBuilder"></param>
+    /// <param name="protectionPrefix"></param>
+    /// <param name="protectedPrefix"></param>
+    /// <returns></returns>
+    public static IConfigurationBuilder AddProtectedJsonFile(this IConfigurationBuilder configurationBuilder, string protectionPrefix, string protectedPrefix)
+    {
+        var source = new AppSettingsProtectorSource(null, "appsettings.json", false, protectionPrefix, protectedPrefix);
+        return configurationBuilder.Add(source);
+    }
     
     /// <summary>
     /// Add the protection layer to the configuration file using the default prefixes.
@@ -55,6 +82,6 @@ public static class ConfigurationBuilderExtensions
     public static IConfigurationBuilder AddProtectedJsonFile(this IConfigurationBuilder configurationBuilder)
     {
         var source = new AppSettingsProtectorSource(null, "appsettings.json", false);
-        return configurationBuilder.Add(source);
+        return configurationBuilder.Add(source);    
     }
 }
