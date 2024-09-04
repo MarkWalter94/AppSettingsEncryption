@@ -4,6 +4,14 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>AppSettingsProtector</Title>
+        <Authors>Marco Ortali</Authors>
+        <Description>A simple library that encrypt specific settings in your appsettings.json file</Description>
+        <PackageProjectUrl>https://github.com/MarkWalter94/AppSettingsProtector</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/MarkWalter94/AppSettingsProtector/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/MarkWalter94/AppSettingsProtector</RepositoryUrl>
+        <RepositoryType>GIT</RepositoryType>
+        <PackageTags>Crypto ConnectionStrings Protect DPAPI appsettings</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
