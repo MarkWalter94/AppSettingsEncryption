@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSettingsProtector", "AppSettingsProtector\AppSettingsProtector.csproj", "{3F3F77BA-CA7A-4F1A-B019-DDFA294D167A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSettingsEncryption", "AppSettingsEncryption\AppSettingsEncryption.csproj", "{3F3F77BA-CA7A-4F1A-B019-DDFA294D167A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSettingsProtector.AspNetCoreExample", "AppSettingsProtector.AspNetCoreExample\AppSettingsProtector.AspNetCoreExample.csproj", "{4A129A04-D54D-4725-8556-840A1B816EC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSettingsEncryption.AspNetCoreExample", "AppSettingsEncryption.AspNetCoreExample\AppSettingsEncryption.AspNetCoreExample.csproj", "{4A129A04-D54D-4725-8556-840A1B816EC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

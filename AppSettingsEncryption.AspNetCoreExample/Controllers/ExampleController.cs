@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace AppSettingsProtector.AspNetCoreExample.Controllers;
+namespace AppSettingsEncryption.AspNetCoreExample.Controllers;
 
 [ApiController]
 [Route("[controller]")]

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.FileProviders;
 
-namespace AppSettingsProtector;
+namespace AppSettingsEncryption;
 
 public static class ConfigurationBuilderExtensions
 {

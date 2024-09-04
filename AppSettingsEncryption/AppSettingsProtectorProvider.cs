@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace AppSettingsProtector;
+namespace AppSettingsEncryption;
 
 public class AppSettingsProtectorProvider : JsonConfigurationProvider
 {

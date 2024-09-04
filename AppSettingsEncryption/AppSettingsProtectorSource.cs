@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.FileProviders;
 
-namespace AppSettingsProtector;
+namespace AppSettingsEncryption;
 
 public class AppSettingsProtectorSource : JsonConfigurationSource
 {

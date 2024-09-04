@@ -1,4 +1,4 @@
-using AppSettingsProtector;
+using AppSettingsEncryption;
 
 var builder = WebApplication.CreateBuilder(args);
 
